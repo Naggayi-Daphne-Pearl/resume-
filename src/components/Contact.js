@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className='container mx-auto py-16 md:py-20 md:mx-8'>
+    <div className='container mx-auto py-16 md:py-20'>
       <h5 class="text-center font-header text-3xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
         Contact info
       </h5>
