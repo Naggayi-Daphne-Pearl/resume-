@@ -12,7 +12,7 @@ function Services() {
       <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
         What I can do
       </h2>
-      <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-1 md:gap-10 md:pt-12 lg:grid-cols-3">
         {/* WEB DEVELOPMENT */}
         <div className="group rounded px-8 py-12 shadow hover:bg-primary">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
