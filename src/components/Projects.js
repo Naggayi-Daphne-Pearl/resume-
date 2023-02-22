@@ -28,12 +28,13 @@ function Projects() {
       links: "https://list-n17c.onrender.com/",
     },
     {
-      id: 1,
+      id: 4,
       title: "Tours Finder",
       description:
         "Tours Finder allows users to search for places around Uganda. As a designer on this project, my goal was to design a website that is visual appealing, easy to use. I made research to identify the preferences and needs of the target audience. Based on my research, I created wire frames using Figma to create a clean design. My goal was to create a user-friendly and visually apealing design that would enable users find information of places they want to visit in Uganda.",
       languages: "React, Python, Flask Alchemy",
     },
+   
   ];
 
   // Show more and less
@@ -58,7 +59,12 @@ function Projects() {
                 ? item.description
                 : `${item.description.substring(0, 150)}...`}
             </p>
-            <button className='text-primary pt-2 text-center' onClick={toggleReadMore}>{readMore ? 'Show less' : ' Show More'}</button>
+            <button
+              className="text-primary pt-2 text-center"
+              onClick={toggleReadMore}
+            >
+              {readMore ? "Show less" : " Show More"}
+            </button>
             {/* <p className="text-grey pt-4 text-sm md:text-start">
               {item.description}
             </p> */}
@@ -70,8 +76,13 @@ function Projects() {
             </a>
           </div>
         ))}
+        
       </div>
+      <button className="container text-center font-header text-xl font-semibold uppercase text-primary p-8 hover:text-yellow hover:underline ">
+        <a href="https://github.com/Naggayi-Daphne-Pearl">More Projects</a>
+      </button>
     </div>
+
   );
 }
 
