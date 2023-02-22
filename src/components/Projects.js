@@ -54,7 +54,7 @@ function Projects() {
             <h3 className="pt-2 text-lg text-center font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               {item.title}
             </h3>
-            <p className="text-grey text-2xl pt-4 text-sm md:text-start">
+            <p className="pt-6 font-body leading-relaxed text-grey-20">
               {readMore
                 ? item.description
                 : `${item.description.substring(0, 150)}...`}
@@ -68,7 +68,7 @@ function Projects() {
             {/* <p className="text-grey pt-4 text-sm md:text-start">
               {item.description}
             </p> */}
-            <p className="font-semibold uppercase md:text-start text-sm py-3">
+            <p className="pt-6 font-body leading-relaxed text-grey-20 font-bold">
               Languages used: {item.languages}
             </p>
             <a href={item.links} className="container text-primary text-center  pt-4">

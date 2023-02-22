@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="bg-primary">
       <div className="container mx-auto flex flex-col justify-between py-6 sm:flex-row">
-        <p class="text-center font-body text-white md:text-left">
+        <p className="text-center font-body text-white md:text-left">
           © Copyright 2023. All right reserved, Naggayi-Daphne-Pearl
         </p>
         <div className="flex items-center justify-center pt-5 sm:justify-start sm:pt-0">

@@ -27,7 +27,7 @@ function Services() {
             <h3 class="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               WEB DEVELOPMENT
             </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+            <p class="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
               I have acquired skills that has made a full-stack developer. I
               have used React,JavaScript, HTML and CSS for my front end
               projects. For the back end projects, I have used Nodejs,
@@ -50,7 +50,7 @@ function Services() {
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               Mobile Development
             </h3>
-            <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+            <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
               I created and developed mobile applications for mobile devices. I
               have honed my skills to develop responsive designs
             </p>
@@ -71,7 +71,7 @@ function Services() {
             <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               Web Design
             </h3>
-            <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+            <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
               I have designed and built interfaces, navigation an aesthetic of
               websites for clients using Figma. I have also designed the user
               journeys and work flows for the clients using the websites.{" "}
