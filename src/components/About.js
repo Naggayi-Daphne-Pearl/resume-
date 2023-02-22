@@ -8,8 +8,15 @@ import {
 
 function About() {
   const skills = [
-    { id: 1, skill: "HTML & CSS", percentWidth: "90%", percent: "80%" },
+    { id: 1, skill: "React", percent: "70%", width: "70%" },
+    { id: 2, skill: "Python", percent: "75%", width: "75%" },
+    { id: 2, skill: "Javascript", percent: "80%", width: "80%" },
+    { id: 2, skill: "Database Management", percent: "90%", width: "90%" },
+    { id: 2, skill: "Version Control", percent: "80%", width: "80%" },
+
   ];
+
+  
   return (
     <div id="about">
       <div className="container mx-auto flex flex-col items-center py-16 md:py-20 lg:flex-row">
@@ -53,8 +60,9 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="min-w-[25%] px-10 pl-4 pt-10 sm:w-1/2 lg:w-2/5 lg:pl-12 lg:pt-0">
+
+        {/* Languages */}
+        <div className="min-w-[25%] px-10 pl-4 pt-10 sm:w-1/2 lg:w-2/5 lg:pl-12 lg:pt-0">
         {skills.map((item) => (
           <div className="pt-6" key={item.id}>
             <div className="flex items-end justify-between">
@@ -66,11 +74,18 @@ function About() {
               </h3>
             </div>
             <div class="mt-2 h-3 w-full rounded-full bg-lila">
-              <div class="h-3 rounded-full bg-primary" style={{}}>{item.percentWidth}</div>
+              <div
+                class="h-3 rounded-full bg-primary"
+                style={{ width: item.width }}
+              >
+                {item.percentWidth}
+              </div>
             </div>
           </div>
         ))}
       </div>
+      </div>
+      
     </div>
   );
 }
