@@ -71,7 +71,7 @@ function Projects() {
             <p className="font-semibold uppercase md:text-start text-sm py-3">
               Languages used: {item.languages}
             </p>
-            <a href={item.links} className="text-primary md:text-center pt-4">
+            <a href={item.links} className="container text-primary text-center  pt-4">
               Live Demo
             </a>
           </div>
