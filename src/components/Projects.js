@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import todoImage from "../assets/img/cap2.PNG";
 
 function Projects() {
@@ -14,7 +14,8 @@ function Projects() {
     {
       id: 2,
       title: "Portofolio",
-      description: "I built my ",
+      description:
+        "I built my portofolio to showcase my skills, experiences as a developer and provide an overview of my career path so far. My portfolio shows examples of my work, including my projects and personal endeavours. I attached my resume with my background, education as well as skills and expertise.  My portfolio is a reflection of my commitment to my profession and my passion for creating impactful work. ",
       languages: "React, Tailwind",
       links: "https://list-n17c.onrender.com/",
     },
@@ -26,26 +27,45 @@ function Projects() {
       languages: "React, Tailwind",
       links: "https://list-n17c.onrender.com/",
     },
+    {
+      id: 1,
+      title: "Tours Finder",
+      description:
+        "Tours Finder allows users to search for places around Uganda. As a designer on this project, my goal was to design a website that is visual appealing, easy to use. I made research to identify the preferences and needs of the target audience. Based on my research, I created wire frames using Figma to create a clean design. My goal was to create a user-friendly and visually apealing design that would enable users find information of places they want to visit in Uganda.",
+      languages: "React, Python, Flask Alchemy",
+    },
   ];
+
+  // Show more and less
+  const [readMore, setReadMore] = useState(false);
+  const toggleReadMore = () => {
+    setReadMore(!readMore);
+  };
+
   return (
     <div className="container mx-auto py-16 md:py-20">
       <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
         What I can do
       </h2>
-      <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-1 md:gap-10 md:pt-12 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-1 md:gap-10 md:pt-12 lg:grid-cols-2">
         {projects.map((item) => (
           <div className="group rounded px-8 py-12 shadow" key={item.id}>
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="pt-2 text-lg text-center font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               {item.title}
             </h3>
-            <p className="text-grey pt-4 text-sm md:text-start">
+            <p className="text-grey text-2xl pt-4 text-sm md:text-start">
+              {readMore
+                ? item.description
+                : `${item.description.substring(0, 150)}...`}
+            </p>
+            <button className='text-primary pt-2 text-center' onClick={toggleReadMore}>{readMore ? 'Show less' : ' Show More'}</button>
+            {/* <p className="text-grey pt-4 text-sm md:text-start">
               {item.description}
+            </p> */}
+            <p className="font-semibold uppercase md:text-start text-sm py-3">
+              Languages used: {item.languages}
             </p>
-            <p className="font-semibold uppercase text-sm md:text-start pt-3"></p>
-            <p className="font-semibold uppercase md:text-start text-sm pb-3">
-              {item.languages}
-            </p>
-            <a href={item.links} className="text-primary md:text-start py-4">
+            <a href={item.links} className="text-primary md:text-center pt-4">
               Live Demo
             </a>
           </div>
