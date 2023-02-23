@@ -12,14 +12,14 @@ import { BsChevronRight } from "react-icons/bi";
 function Home() {
   return (
     <>
-      <Navbar />
       <div
         className="relative bg-cover bg-center bg-no-repeat py-8"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
+        <Navbar />
         <div className="absolute inset-0 z-20  bg-cover bg-center bg-no-repeat"></div>
 
-        <div className="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48 mx-auto px-6">
+        <div className="container relative z-30 pt-6 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48 mx-auto px-6">
           <div className="flex flex-col items-center justify-center lg:flex-row">
             {/* <div className="rounded-full border-8 border-primary shadow-xl">
         <img
@@ -28,7 +28,7 @@ function Home() {
           alt="author"
         />
       </div>  */}
-            <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
+            <div className="pt-4 sm:pt-6 lg:pl-4 lg:pt-0">
               <h2 className="text-center italic font-header font-bold text-3xl text-white sm:text-left sm:text-5xl md:text-6xl">
                 Hello I am Daphne
               </h2>

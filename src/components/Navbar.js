@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import myResume from "../assets/resume/my-cv.pdf";
 import { FiMenu } from "react-icons/fi";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaTwitter,
+  FaAngleRight,
+} from "react-icons/fa";
+
 
 function Navbar() {
   const navlinks = [
@@ -8,6 +15,7 @@ function Navbar() {
     { id: 2, text: "Services", href: "/services" },
     { id: 3, text: "Projects", href: "/projects" },
     { id: 4, text: "Contacts", href: "/contact" },
+    {id:5, text:'Resume', href:{myResume}}
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -19,13 +27,13 @@ function Navbar() {
   return (
   
     <div className="relative container mx-auto p-6">
-      <div className="w-full z-50 top-0 py-3 sm:py-5  absolute"></div>
+      <div className="w-full z-50 top-0 py-3 sm:py-8  absolute"></div>
       {/* Flex Container */}
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="pt-2">
           <a href="/">
-            <h4 className="lg:w-48 text-black text-3xl mr-2 my-4 font-header font-extrabold">
+            <h4 className="lg:w-48 text-white text-4xl mr-2 my-4 font-header font-light italics">
               DAPHNE
             </h4>
           </a>
@@ -35,22 +43,15 @@ function Navbar() {
           <ul className="flex items-center text-xl">
             {navlinks.map((item) => (
               <a href={item.href}>
-                <li key={item.id} className="group pl-6">
-                  <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-black">
+                <li key={item.id} className="group pl-4">
+                  <span className="cursor-pointer pt-0.5 font-header text-2xl font-semibold uppercase text-white">
                     {item.text}
                   </span>
-                  <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
+                  <span className="block h-0.5 w-full bg-transparent hover:bg-primary"></span>
                 </li>
               </a>
             ))}
-            <li className="group pl-6">
-              <a
-                href={myResume}
-                className="hidden p-3 px-6 pt-2 text-white bg-primary rounded-full baseline hover:bg-secondary md:block"
-              >
-                <button>Resume</button>
-              </a>
-            </li>
+          
           </ul>
         </div>
 
@@ -76,6 +77,8 @@ function Navbar() {
           </div>
         </button>
       </div>
+
+     
       
     </div>
 
