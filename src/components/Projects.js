@@ -25,7 +25,7 @@ function Projects() {
       description:
         "For this project, I designed the user interfaces for the web application for Agalm Technolgies. I worked closely with the developers and project owner to make sure the design was feasible and aligned with the project requirements.I conducted research and analyzed needs of the target audience. The final design features were simple with a focus of use and intutive designs. ",
       languages: "Figma",
-      links: "https://list-n17c.onrender.com/",
+      links: "https://www.figma.com/file/K58Nxz9XrUX5fGJ9tlJak8/Agalm?node-id=0%3A1&t=biROUwBGCjDy7jiY-1",
     },
     {
       id: 4,
