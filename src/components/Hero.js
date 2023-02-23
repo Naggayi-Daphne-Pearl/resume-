@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import backgroundImage from "../assets//img/hero-image.jpg";
+import backgroundImage from "../assets/img/background.jpg";
 import {
   FaLinkedinIn,
   FaGithub,
@@ -28,7 +28,7 @@ function Home() {
           alt="author"
         />
       </div>  */}
-            <div className="pt-4 sm:pt-6 lg:pl-4 lg:pt-0">
+            <div className="pt-4 sm:pt- lg:pl-4 lg:pt-0">
               <h2 className="text-center italic font-header font-bold text-3xl text-white sm:text-left sm:text-5xl md:text-6xl">
                 Hello I am Daphne
               </h2>

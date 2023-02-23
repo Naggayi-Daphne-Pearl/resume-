@@ -26,14 +26,14 @@ function Navbar() {
 
   return (
   
-    <div className="relative container mx-auto p-6">
-      <div className="w-full z-50 top-0 py-3 sm:py-8  absolute"></div>
+    <div className="relative container mx-auto px-10">
+      <div className="w-full z-50 top-0 py-6 sm:py-8  absolute"></div>
       {/* Flex Container */}
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="pt-2">
           <a href="/">
-            <h4 className="lg:w-48 text-white text-4xl mr-2 my-4 font-header font-light italics">
+            <h4 className="lg:w-48 text-white text-4xl mr-2 my-6 font-header font-light italics">
               DAPHNE
             </h4>
           </a>

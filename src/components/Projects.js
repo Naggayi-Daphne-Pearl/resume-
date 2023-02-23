@@ -24,7 +24,7 @@ function Projects() {
       title: "Agalm Technologies UI/UX design",
       description:
         "For this project, I designed the user interfaces for the web application for Agalm Technolgies. I worked closely with the developers and project owner to make sure the design was feasible and aligned with the project requirements.I conducted research and analyzed needs of the target audience. The final design features were simple with a focus of use and intutive designs. ",
-      languages: "React, Tailwind",
+      languages: "Figma",
       links: "https://list-n17c.onrender.com/",
     },
     {

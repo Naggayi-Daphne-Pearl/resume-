@@ -17,12 +17,12 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        primary: "rgb(45 212 191)",
+        primary: "rgb(56 189 248)",
         secondary: "rgb(153 246 228)",
         background:"rgb(254 242 242)",
         white: "#ffffff",
         black: "#000000",
-        yellow: "rgb(4 120 87)",
+        yellow: "rgb(254 240 138)",
         lila: "#e6e5ec",
         "grey-10": "#6c6b6d",
         "grey-20": "#7c7c7c",
