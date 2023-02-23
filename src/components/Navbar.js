@@ -14,7 +14,7 @@ function Navbar() {
     { id: 2, text: "Services", href: "/services" },
     { id: 3, text: "Projects", href: "/projects" },
     { id: 4, text: "Contacts", href: "/contact" },
-    { id: 5, text: "Resume", href: { myResume } },
+    
   ];
 
   const [isOpen, setIsOpen] = useState(false);
