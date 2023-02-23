@@ -17,7 +17,7 @@ function Projects() {
       description:
         "I built my portofolio to showcase my skills, experiences as a developer and provide an overview of my career path so far. My portfolio shows examples of my work, including my projects and personal endeavours. I attached my resume with my background, education as well as skills and expertise.  My portfolio is a reflection of my commitment to my profession and my passion for creating impactful work. ",
       languages: "React, Tailwind",
-      links: "https://list-n17c.onrender.com/",
+      links: "https://resume-mu-sooty.vercel.app/",
     },
     {
       id: 3,
@@ -71,7 +71,7 @@ function Projects() {
             <p className="pt-6 font-body leading-relaxed text-grey-20 font-bold">
               Languages used: {item.languages}
             </p>
-            <a href={item.links} className="container text-primary text-center  pt-4">
+            <a href={item.links} className="container text-primary text-center pt-8">
               Live Demo
             </a>
           </div>
