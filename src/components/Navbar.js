@@ -26,14 +26,14 @@ function Navbar() {
 
   return (
   
-    <div className="relative container mx-auto px-10">
-      <div className="w-full z-50 top-0 py-6 sm:py-8  absolute"></div>
+    <div className="relative container mx-auto px-1">
+      <div className="w-full z-40 top-0 py-6 sm:py-8  absolute"></div>
       {/* Flex Container */}
       <div className="flex items-center justify-between">
         {/* Logo */}
         <div className="pt-2">
           <a href="/">
-            <h4 className="lg:w-48 text-white text-4xl mr-2 my-6 font-header font-light italics">
+            <h4 className="lg:w-48 text-yellow text-4xl mr-1 my-6 font-header font-light font-serif italics">
               DAPHNE
             </h4>
           </a>
@@ -43,8 +43,8 @@ function Navbar() {
           <ul className="flex items-center text-xl">
             {navlinks.map((item) => (
               <a href={item.href}>
-                <li key={item.id} className="group pl-4">
-                  <span className="cursor-pointer pt-0.5 font-header text-2xl font-semibold uppercase text-white">
+                <li key={item.id} className="group pl-6" >
+                  <span className="cursor-pointer pt-0.5 font-header text-2xl font-semibold uppercase text-yellow  ">
                     {item.text}
                   </span>
                   <span className="block h-0.5 w-full bg-transparent hover:bg-primary"></span>
