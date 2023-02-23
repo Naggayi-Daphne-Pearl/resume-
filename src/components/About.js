@@ -66,7 +66,7 @@ function About() {
         {skills.map((item) => (
           <div className="pt-6" key={item.id}>
             <div className="flex items-end justify-between">
-              <h4 class="font-body font-semibold uppercase text-black">
+              <h4 class="font-body font-semibold uppercase text-xl leading-relaxed text-grey-20">
                 {item.skill}
               </h4>
               <h3 class="font-body text-2xl font-bold text-primary">
