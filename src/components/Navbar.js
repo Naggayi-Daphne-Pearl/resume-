@@ -31,18 +31,18 @@ function Navbar() {
         {/* Logo */}
         <div className="pt-2">
           <a href="/">
-            <h4 className="w-48 text-yellow text-5xl pr-1 my-2 italic font-light font-['Open_Sans'] md:text-3xl">
+            <h4 className="w-48 text-yellow lg:text-5xl pr-1 my-2  font-['Open_Sans'] text-3xl mx-4 font-extrabold">
               DAPHNE
             </h4>
           </a>
         </div>
         {/* Menu items fpr large screens */}
         <div className="hidden space-x-6 md:flex">
-          <ul className="flex items-center text-xl">
+          <ul className="flex items-center text-xl ml-12">
             {navlinks.map((item) => (
               <a href={item.href}>
-                <li key={item.id} className="group pl-6">
-                  <span className="cursor-pointer pt-0.5 font-header text-2xl font-semibold uppercase text-yellow  ">
+                <li key={item.id}>
+                  <span className="cursor-pointer pt-0.5 font-header text-2xl font-semibold uppercase text-yellow pl-6 ">
                     {item.text}
                   </span>
                   <span className="block h-0.5 w-full bg-transparent hover:bg-primary"></span>

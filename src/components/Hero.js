@@ -30,10 +30,10 @@ function Home() {
       </div>  */}
             <div className="pt-4 sm:pt- lg:pl-4 lg:pt-0">
               <h2 className="text-center italic font-header font-bold text-3xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                Hello I am Daphne
+                Hello I am Daphne 
               </h2>
               <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
-                <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
+                <div className="flex items-center justify-center pl-0 sm:justify-start ">
                   <p className="font-body text-lg uppercase text-white">
                     Connect with me
                   </p>
@@ -41,7 +41,7 @@ function Home() {
                     <FaAngleRight className="bx bx-chevron-right text-3xl text-yellow" />
                   </div>
                 </div>
-                <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
+                <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pl-0">
                   <a
                     href="https://github.com/Naggayi-Daphne-Pearl"
                     className="pl-4"
