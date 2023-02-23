@@ -31,9 +31,8 @@ function About() {
             I recently graduated from Refactory Uganda with an advanced
             certificate in software development and have been honing my skills
             through various projects. I have gained experience in being a full
-            stack developer in my previous internship at Refactory Uganda. This
-            has made me able to learn new technologies quickly which makes me a
-            strong candidate for this role.
+            stack developer in my previous internship at Refactory Uganda. 
+
           </p>
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">
