@@ -6,7 +6,7 @@
 
 
 ## Built With
-- HTML
+- React
 - CSS
 - Tailwind CSS
 
