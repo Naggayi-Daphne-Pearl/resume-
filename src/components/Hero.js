@@ -8,6 +8,9 @@ import {
   FaAngleRight,
 } from "react-icons/fa";
 import { BsChevronRight } from "react-icons/bi";
+import Button from './Button'
+import myResume from "../assets/resume/my-cv.pdf";
+
 
 function Hero() {
   return (
@@ -57,6 +60,18 @@ function Hero() {
                   </a>
                 </div>
               </div>
+
+              <div className="p-10 mx-12 ">
+                <Button >
+                  <a href={myResume}>
+                    my resume
+                  </a>
+                  
+                </Button>
+              </div>
+
+              
+              
             </div>
           </div>
         </div>
