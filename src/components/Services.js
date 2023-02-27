@@ -24,7 +24,7 @@ function Services() {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="pt-8 text-lg font-semibold uppercase  text-primary group-hover:text-yellow lg:text-xl">
               WEB DEVELOPMENT
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">

@@ -37,7 +37,7 @@ function About() {
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">
               <p className="font-body text-lg font-semibold uppercase text-grey-20">
-                Connect with me
+                Let's Connect
               </p>
               <div className="hidden sm:block">
                 <FaAngleRight className="bx bx-chevron-right text-2xl text-primary" />

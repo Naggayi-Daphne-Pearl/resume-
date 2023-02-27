@@ -46,7 +46,7 @@ function Work() {
               <div className="relative flex md:pl-18">
                 <div className="mt-1 flex">
                   <FaCaretRight className="bx bxs-right-arrow hidden text-5xl text-primary md:block" />
-                  <div className="md:-mt-1 md:pl-8">
+                  <div className="md:-mt-1 md:pl-6">
                     <span className="block font-body font-bold text-grey-40">
                       {item.date}
                     </span>
@@ -54,7 +54,7 @@ function Work() {
                       {item.job}
                     </span>
                     <div className="pt-2">
-                      <span className="text-center font-body leading-relaxed text-grey-20 px-10 text-start sm:w-3/4 lg:w-3/5 ">
+                      <span className=" container mx-auto text-start font-body leading-relaxed text-grey-20  text-start sm:w-3/4 lg:w-3/5 ">
                         {item.description}
                       </span>
                     </div>

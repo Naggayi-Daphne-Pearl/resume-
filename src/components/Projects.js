@@ -50,7 +50,7 @@ function Projects() {
       </h2>
       <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-1 md:gap-10 md:pt-12 lg:grid-cols-2">
         {projects.map((item) => (
-          <div className="group rounded px-8 py-12 shadow" key={item.id}>
+          <div className="group rounded px-8 py-12 font-body shadow" key={item.id}>
             <h3 className="pt-2 text-lg text-center font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
               {item.title}
             </h3>
