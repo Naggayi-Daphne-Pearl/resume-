@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { BsChevronRight } from "react-icons/bi";
 
-function Home() {
+function Hero() {
   return (
     <>
       <div
@@ -65,4 +65,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;
