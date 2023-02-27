@@ -524,6 +524,9 @@ video {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+.ml-12 {
+  margin-left: 3rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -544,18 +547,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mr-10 {
-  margin-right: 2.5rem;
-}
-.mr-3 {
-  margin-right: 0.75rem;
-}
-.ml-10 {
-  margin-left: 2.5rem;
-}
-.ml-12 {
-  margin-left: 3rem;
 }
 .block {
   display: block;
@@ -630,11 +621,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .rounded {
   border-radius: 0.25rem;
@@ -798,10 +784,10 @@ video {
   font-family: 'Open Sans';
 }
 .font-body {
-  font-family: Open Sans, sans-serif;
+  font-family: Droid Serif, sans-serif;
 }
 .font-header {
-  font-family: Raleway, sans-serif;
+  font-family: Poppins, sans-serif;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -834,17 +820,14 @@ video {
 .font-bold {
   font-weight: 700;
 }
-.font-light {
-  font-weight: 300;
+.font-extrabold {
+  font-weight: 800;
 }
 .font-medium {
   font-weight: 500;
 }
 .font-semibold {
   font-weight: 600;
-}
-.font-extrabold {
-  font-weight: 800;
 }
 .uppercase {
   text-transform: uppercase;
@@ -924,10 +907,6 @@ video {
 }
 @media (min-width: 480px) {
 
-  .sm\:ml-0 {
-    margin-left: 0px;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -965,6 +944,10 @@ video {
     padding-bottom: 12rem;
   }
 
+  .sm\:pl-0 {
+    padding-left: 0px;
+  }
+
   .sm\:pt-0 {
     padding-top: 0px;
   }
@@ -975,10 +958,6 @@ video {
 
   .sm\:pt-56 {
     padding-top: 14rem;
-  }
-
-  .sm\:pl-0 {
-    padding-left: 0px;
   }
 
   .sm\:text-left {
@@ -998,16 +977,6 @@ video {
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -1049,10 +1018,6 @@ video {
     padding-bottom: 5rem;
   }
 
-  .md\:pl-1 {
-    padding-left: 0.25rem;
-  }
-
   .md\:pl-8 {
     padding-left: 2rem;
   }
@@ -1069,11 +1034,6 @@ video {
     text-align: start;
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1088,10 +1048,6 @@ video {
 
   .lg\:mt-0 {
     margin-top: 0px;
-  }
-
-  .lg\:mr-6 {
-    margin-right: 1.5rem;
   }
 
   .lg\:inline-block {

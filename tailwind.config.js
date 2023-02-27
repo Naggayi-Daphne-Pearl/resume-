@@ -4,8 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      header: ["Raleway", "sans-serif"],
-      body: ["Open Sans", "sans-serif"],
+      header: ["Poppins", "sans-serif"],
+      body: ["Droid Serif", "sans-serif"],
     },
     screens: {
       sm: "480px",
