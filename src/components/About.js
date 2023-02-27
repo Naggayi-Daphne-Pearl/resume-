@@ -36,25 +36,25 @@ function About() {
           </p>
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">
-              <p class="font-body text-lg font-semibold uppercase text-grey-20">
+              <p className="font-body text-lg font-semibold uppercase text-grey-20">
                 Connect with me
               </p>
-              <div class="hidden sm:block">
-                <FaAngleRight class="bx bx-chevron-right text-2xl text-primary" />
+              <div className="hidden sm:block">
+                <FaAngleRight className="bx bx-chevron-right text-2xl text-primary" />
               </div>
             </div>
             <div className="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
               <a href="https://github.com/Naggayi-Daphne-Pearl">
-                <FaGithub class="bx bxl-github text-2xl text-primary hover:text-yellow" />
+                <FaGithub className="bx bxl-github text-2xl text-primary hover:text-yellow" />
               </a>
-              <a href="https://twitter.com/DaphnePearl8" class="pl-4">
-                <FaTwitter class="bx bxl-twitter text-2xl text-primary hover:text-yellow" />
+              <a href="https://twitter.com/DaphnePearl8" className="pl-4">
+                <FaTwitter className="bx bxl-twitter text-2xl text-primary hover:text-yellow" />
               </a>
               <a
                 href="https://www.linkedin.com/in/daphne-naggayi-68070b185/"
-                class="pl-4"
+                className="pl-4"
               >
-                <FaLinkedinIn class="bx bxl-linkedin text-2xl text-primary hover:text-yellow" />
+                <FaLinkedinIn className="bx bxl-linkedin text-2xl text-primary hover:text-yellow" />
               </a>
             </div>
           </div>
@@ -65,16 +65,16 @@ function About() {
         {skills.map((item) => (
           <div className="pt-6" key={item.id}>
             <div className="flex items-end justify-between">
-              <h4 class="font-body font-semibold uppercase text-xl leading-relaxed text-grey-20">
+              <h4 className="font-body font-semibold uppercase text-xl leading-relaxed text-grey-20">
                 {item.skill}
               </h4>
-              <h3 class="font-body text-2xl font-bold text-primary">
+              <h3 className="font-body text-2xl font-bold text-primary">
                 {item.percent}
               </h3>
             </div>
-            <div class="mt-2 h-3 w-full rounded-full bg-lila">
+            <div className="mt-2 h-3 w-full rounded-full bg-lila">
               <div
-                class="h-3 rounded-full bg-primary"
+                className="h-3 rounded-full bg-primary"
                 style={{ width: item.width }}
               >
                 {item.percentWidth}

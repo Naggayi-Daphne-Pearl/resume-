@@ -12,16 +12,16 @@ function Footer() {
             {/* Linkedin */}
           <a
             href="https://www.linkedin.com/in/daphne-naggayi-68070b185/"
-            class="pl-4"
+            className="pl-4"
           >
-            <FaLinkedinIn class="bx bxl-linkedin text-2xl text-white hover:text-yellow"/>
+            <FaLinkedinIn className="bx bxl-linkedin text-2xl text-white hover:text-yellow"/>
           </a>
           {/* Twitter */}
-          <a href="ps://twitter.com/DaphnePearl8" class="pl-4">
-            <FaTwitter class="bx bxl-twitter text-2xl text-white hover:text-yellow"/>
+          <a href="ps://twitter.com/DaphnePearl8" className="pl-4">
+            <FaTwitter className="bx bxl-twitter text-2xl text-white hover:text-yellow"/>
           </a>
           {/* Linkedin */}
-          <a href="https://github.com/Naggayi-Daphne-Pearl" class="pl-4">
+          <a href="https://github.com/Naggayi-Daphne-Pearl" className="pl-4">
             <FaGithub className="bx bxl-github text-2xl text-white hover:text-yellow"/>
           </a>
         </div>

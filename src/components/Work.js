@@ -28,33 +28,33 @@ function Work() {
       <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
         {workdone.map((item) => (
           <div
-            class="mt-8 flex flex-col text-center md:flex-row md:text-left"
+            className="mt-8 flex flex-col text-center md:flex-row md:text-left"
             key={item.id}
           >
-            <div class="md:w-2/5">
-              <div class="flex justify-center md:justify-start">
-                <span class="shrink-0">
-                  <h6 class="font-body text-2xl font-semibold uppercase text-grey-40 pr-0.5 sm:text-3xl lg:text-2xl">
+            <div className="md:w-2/5">
+              <div className="flex justify-center md:justify-start">
+                <span className="shrink-0">
+                  <h6 className="font-body text-2xl font-semibold uppercase text-grey-40 pr-0.5 sm:text-3xl lg:text-2xl">
                     {item.company}
                   </h6>
                 </span>
-                <div class="relative ml-3 hidden w-full md:block"></div>
+                <div className="relative ml-3 hidden w-full md:block"></div>
               </div>
             </div>
 
-            <div class="md:w-3/5">
-              <div class="relative flex md:pl-18">
-                <div class="mt-1 flex">
-                  <FaCaretRight class="bx bxs-right-arrow hidden text-5xl text-primary md:block" />
-                  <div class="md:-mt-1 md:pl-8">
-                    <span class="block font-body font-bold text-grey-40">
+            <div className="md:w-3/5">
+              <div className="relative flex md:pl-18">
+                <div className="mt-1 flex">
+                  <FaCaretRight className="bx bxs-right-arrow hidden text-5xl text-primary md:block" />
+                  <div className="md:-mt-1 md:pl-8">
+                    <span className="block font-body font-bold text-grey-40">
                       {item.date}
                     </span>
-                    <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                    <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
                       {item.job}
                     </span>
-                    <div class="pt-2">
-                      <span class="text-center font-body leading-relaxed text-grey-20 px-10 text-start sm:w-3/4 lg:w-3/5 ">
+                    <div className="pt-2">
+                      <span className="text-center font-body leading-relaxed text-grey-20 px-10 text-start sm:w-3/4 lg:w-3/5 ">
                         {item.description}
                       </span>
                     </div>

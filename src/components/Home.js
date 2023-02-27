@@ -9,7 +9,7 @@ import Work from './Work'
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
         <Hero/>
         <About/>
         <Services/>
