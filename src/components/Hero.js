@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-import backgroundImage from "../assets/img/background.jpg";
+// import backgroundImage from "../assets/img/background.jpg";
 import {
   FaLinkedinIn,
   FaGithub,
