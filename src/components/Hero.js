@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
-// import backgroundImage from "../assets/img/background.jpg";
+import backgroundImage from "../assets/img/background.jpg";
 import {
   FaLinkedinIn,
   FaGithub,
@@ -61,14 +61,14 @@ function Hero() {
                 </div>
               </div>
 
-//               <div className="p-10 mx-12 ">
-//                 <Button >
-//                   <a href={myResume}>
-//                     my resume
-//                   </a>
+              <div className="p-10 mx-12 ">
+               <Button >
+                  <a href={myResume}>
+                     my resume
+                   </a>
                   
-//                 </Button>
-//               </div>
+                </Button>
+              </div>
 
               
               
