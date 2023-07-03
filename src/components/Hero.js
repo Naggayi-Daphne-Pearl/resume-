@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { BsChevronRight } from "react-icons/bi";
 import Button from './Button'
-import myResume from "../assets/resume/daphnecv.pdf";
+import myResume from "../assets/resume/Naggayi-Daphne(CV).pdf";
 
 
 function Hero() {
