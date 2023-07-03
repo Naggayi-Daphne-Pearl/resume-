@@ -50,7 +50,7 @@ function Work() {
             <div className="md:w-2/5">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
-                  <h6 className="font-body text-2xl font-semibold uppercase text-grey-40 pr-0.5 sm:text-3xl lg:text-2xl">
+                  <h6 className="font-header text-2xl  uppercase text-black pr-0.5 sm:text-3xl lg:text-2xl">
                     {item.company}
                   </h6>
                 </span>

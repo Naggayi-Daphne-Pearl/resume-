@@ -28,10 +28,10 @@ function Services() {
               WEB DEVELOPMENT
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
-              I have acquired skills that has made a full-stack developer. I
-              have used React,JavaScript, HTML and CSS for my front end
-              projects. For the back end projects, I have used Nodejs,
-              Python,Nextjs and PostgreSQL.
+              I am driven web developer with a flair for creating visually
+              stunning and interactive websites. <br />I possess a deep
+              understanding of front-end and back-end technologies, enabling me
+              to deliver immersive user experiences.
             </p>
           </div>
         </div>
@@ -51,8 +51,10 @@ function Services() {
               Mobile Development
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
-              I created and developed mobile applications for mobile devices. I
-              have honed my skills to develop responsive designs
+              I am a passionate Mobile App Developer creating captivating and
+              innovative mobile experiences. <br />
+              Specializing in developing user-friendly and high-performance
+              applications for iOS and Android platforms.
             </p>
           </div>
         </div>
@@ -72,9 +74,11 @@ function Services() {
               Web Design
             </h3>
             <p className="pt-6 font-body leading-relaxed text-grey-20 group-hover:text-white md:text-base">
-              I have designed and built interfaces, navigation an aesthetic of
-              websites for clients using Figma. I have also designed the user
-              journeys and work flows for the clients using the websites.{" "}
+              I create sleek and modern web designs that captivate and engage. I
+              specialize in creating intuitive user interfaces that leave a
+              lasting impression. <br />
+              From seamless navigation to eye-catching graphics, my designs
+              strike the perfect balance between aesthetics and functionality.
             </p>
           </div>
         </div>
