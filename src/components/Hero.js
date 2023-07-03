@@ -7,16 +7,15 @@ import {
   FaTwitter,
   FaAngleRight,
 } from "react-icons/fa";
-import { BsChevronRight } from "react-icons/bi";
-import Button from './Button'
+import { BsArrowDownCircleFill } from "react-icons/bi";
+import Button from "./Button";
 import myResume from "../assets/resume/Naggayi-Daphne(CV).pdf";
-
 
 function Hero() {
   return (
     <>
       <div
-        className="relative bg-cover bg-center bg-no-repeat py-8"
+        className="relative bg-cover bg-center bg-no-repeat py-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <Navbar />
@@ -62,16 +61,10 @@ function Hero() {
               </div>
 
               <div className="p-10 mx-12 ">
-               <Button >
-                  <a href={myResume}>
-                     my resume
-                   </a>
-                  
+                <Button>
+                  <a href={myResume}>Download CV </a>
                 </Button>
               </div>
-
-              
-              
             </div>
           </div>
         </div>

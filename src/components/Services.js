@@ -9,7 +9,7 @@ import graphicsIconBlack from "../assets/img/icon-graphics-black.svg";
 function Services() {
   return (
     <div className="container mx-auto py-16 md:py-20">
-      <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+      <h2 className="text-center font-header text-3xl font-semibold uppercase text-primary sm:text-4xl lg:text-4xl">
         What I can do
       </h2>
       <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-1 md:gap-10 md:pt-12 lg:grid-cols-3">

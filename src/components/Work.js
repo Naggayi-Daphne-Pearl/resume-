@@ -38,7 +38,7 @@ function Work() {
   ];
   return (
     <div className="py-16 md:py-20 ">
-      <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-3xl lg:text-5xl">
+      <h2 className="text-center font-header text-3xl font-semibold uppercase text-primary sm:text-4xl lg:text-4xl">
         Companies
       </h2>
       <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">

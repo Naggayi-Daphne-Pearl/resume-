@@ -5,7 +5,7 @@ import { GoMail, GoLocation } from "react-icons/go";
 function Contact() {
   return (
     <div className="container mx-auto py-16 md:py-20">
-      <h5 className="text-center font-header text-3xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+      <h5 className="text-center font-header text-2xl font-semibold uppercase text-primary sm:text-4xl lg:text-3xl">
         Contact info
       </h5>
       {/* Phone contact */}

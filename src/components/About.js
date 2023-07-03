@@ -21,7 +21,7 @@ function About() {
     <div id="about">
       <div className="container mx-auto flex flex-col items-center py-16 md:py-20 lg:flex-row">
         <div className="min-w-[25%] px-10 text-start sm:w-3/4 lg:w-3/5 lg:text-left">
-          <h2 className="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          <h2 className="font-header text-3xl font-semibold uppercase text-primary sm:text-4xl lg:text-5xl">
             Who am I?
           </h2>
           <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
