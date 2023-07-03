@@ -13,10 +13,10 @@ function About() {
     { id: 2, skill: "Javascript", percent: "80%", width: "80%" },
     { id: 2, skill: "Database Management", percent: "90%", width: "90%" },
     { id: 2, skill: "Version Control", percent: "80%", width: "80%" },
+    { id: 2, skill: "React Native", percent: "80%", width: "80%" },
 
   ];
 
-  
   return (
     <div id="about">
       <div className="container mx-auto flex flex-col items-center py-16 md:py-20 lg:flex-row">
@@ -25,14 +25,23 @@ function About() {
             Who am I?
           </h2>
           <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            I am Naggayi Daphne Pearl and I am a full stack developer
+            Hello There!{" "}
+            <span role="img" aria-label="hello">
+              👋
+            </span>
+            <br />I am Naggayi Daphne Pearl.
           </h4>
           <p className="pt-6 font-body leading-relaxed text-grey-20">
-            I recently graduated from Refactory Uganda with an advanced
-            certificate in software development and have been honing my skills
-            through various projects. I have gained experience in being a full
-            stack developer in my previous internship at Refactory Uganda. 
-
+            I'm a dynamic Mobile App and Web Developer, fueled by creativity and
+            a knack for crafting captivating digital experiences. I thrive on
+            the thrill of bringing ideas to life and transforming them into
+            sleek, user-friendly mobile applications for iOS and Android
+            platforms. On the web front, I love designing and developing
+            responsive web applications that make users go 'wow' with their
+            seamless functionality. Armed with my coding superpowers in
+            JavaScript. I embark on exciting journeys to turn
+            client visions into reality. I have a keen eye for detail and an
+            unwavering commitment to delivering top-notch user experiences.
           </p>
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">
@@ -62,29 +71,28 @@ function About() {
 
         {/* Languages */}
         <div className="min-w-[25%] px-10 pl-4 pt-10 sm:w-1/2 lg:w-2/5 lg:pl-12 lg:pt-0">
-        {skills.map((item) => (
-          <div className="pt-6" key={item.id}>
-            <div className="flex items-end justify-between">
-              <h4 className="font-body font-semibold uppercase text-xl leading-relaxed text-grey-20">
-                {item.skill}
-              </h4>
-              <h3 className="font-body text-2xl font-bold text-primary">
-                {item.percent}
-              </h3>
-            </div>
-            <div className="mt-2 h-3 w-full rounded-full bg-lila">
-              <div
-                className="h-3 rounded-full bg-primary"
-                style={{ width: item.width }}
-              >
-                {item.percentWidth}
+          {skills.map((item) => (
+            <div className="pt-6" key={item.id}>
+              <div className="flex items-end justify-between">
+                <h4 className="font-body uppercase leading-relaxed text-black">
+                  {item.skill}
+                </h4>
+                <h3 className="font-body font-semibold font-bold text-primary">
+                  {item.percent}
+                </h3>
+              </div>
+              <div className="mt-2 h-2 w-full rounded-full bg-lila">
+                <div
+                  className="h-2 rounded-full bg-primary"
+                  style={{ width: item.width }}
+                >
+                  {item.percentWidth}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-      </div>
-      
     </div>
   );
 }

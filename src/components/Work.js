@@ -15,15 +15,31 @@ function Work() {
       id: 2,
       company: "Parkville Project",
       date: "February 2022 - April 2022",
-      job:'Full Stack Developer',
+      job: "Full Stack Developer",
       description:
         " I developed a system to manage car parking, battery hire,and car tyre clinic. I developed both front and backend using NodeJS, Mongo DB, CSS, Bootstrap, HTML5 and tested my code using Chai and Mocha with all CRUD functionalities",
     },
+    {
+      id: 3,
+      company: "Netify IT Solutions",
+      date: "January 2023 - April 2023",
+      job: "Full Stack Developer and IT Support",
+      description:
+        "As a Web Developer and IT Support professional, I created and maintained websites while providing technical assistance to users. I utilized my expertise in coding, scripting, and web design to develop innovative web solutions that met clients' needs. ",
+    },
+    {
+      id: 4,
+      company: "Mobiklinic ",
+      date: "May 2023 - To Date",
+      job: "Mobile Applications Developer",
+      description:
+        "As a Mobile Apps Developer, I design, develop, and maintain mobile applications for various platforms, including iOS and Android. I utilize my expertise in programming languages such as React Native and Flutter to create functional and user-friendly applications.  ",
+    },
   ];
   return (
-    <div className="py-16 md:py-20">
+    <div className="py-16 md:py-20 ">
       <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-3xl lg:text-5xl">
-        Companies 
+        Companies
       </h2>
       <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
         {workdone.map((item) => (
@@ -54,7 +70,7 @@ function Work() {
                       {item.job}
                     </span>
                     <div className="pt-2">
-                      <span className=" container mx-auto text-start font-body leading-relaxed text-grey-20  text-start sm:w-3/4 lg:w-3/5 ">
+                      <span className=" container mx-auto text-start font-body leading-relaxed text-grey-20  text-start sm:w-3/4 lg:w-1/5 ">
                         {item.description}
                       </span>
                     </div>
@@ -64,8 +80,6 @@ function Work() {
             </div>
           </div>
         ))}
-
-       
       </div>
     </div>
   );
