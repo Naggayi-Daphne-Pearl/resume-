@@ -13,11 +13,11 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Portofolio",
+      title: "AgroDuuka",
       description:
-        "I built my portofolio to showcase my skills, experiences as a developer and provide an overview of my career path so far. My portfolio shows examples of my work, including my projects and personal endeavours. I attached my resume with my background, education as well as skills and expertise.  My portfolio is a reflection of my commitment to my profession and my passion for creating impactful work. ",
-      languages: "React, Tailwind",
-      links: "https://resume-mu-sooty.vercel.app/",
+       "I Built the  AgroDuuka website , which revolutionizes agricultural trade by directly connecting smallholder farmers to buyers through innovative mobile and web technology. Our platform eliminates middlemen, ensuring that farmers get fair prices for their produce while providing buyers with fresh, high-quality agricultural products at competitive prices.",
+      languages: "Word Press",
+      links: "https://agroduuka.com/",
     },
     {
       id: 3,
